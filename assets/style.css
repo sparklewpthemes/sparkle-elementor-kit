@@ -1,0 +1,77 @@
+.sparkle-buy-now-content-wrapper {
+    background: #403c3c7a;
+    position: fixed;
+    z-index: 999;
+    min-width: 100%;
+    padding: 30px;
+    display: none;
+    border-radius: 4px;
+    left: 0;
+    right: 0;
+    height: 100%;
+    top: 0;
+}
+
+.sparkle-buy-now-content-wrapper .spk-pricing {
+    background: white;
+    padding: 40px;
+    border-radius: 4px;
+    min-width: 500px;
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sparkle-buy-now-content-wrapper .spk-close {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: black;
+    color: white;
+    border-radius: 23px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.sparkle-buy-now-content-wrapper .spk-pricewrap {
+    margin-bottom: 0;
+}
+.spk-pricewrap h2.title {
+    font-size: 30px;
+    color: #4C5357;
+    border-bottom: 1px dotted #9b9b9b;
+    padding-bottom: 8px;
+    font-weight: 500;
+}
+.pricetag.theme-price-dynamic {
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.spk-pricewrap form .edd_single_mode ul li {
+    margin: 0 0 20px;
+    background-color: transparent;
+}
+
+.spk-pricewrap .edd_download_purchase_form .edd_price_options span {
+    margin-left: 5px;
+}
+.edd_download_purchase_form .edd_price_options .edd_price_option_name {
+    width: 100%;
+}
+
+.spk-pricewrap form ul label .edd_price_option_price {
+    float: right;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.spk-explore-more-wrap{
+    text-align: center;
+    margin-top: 10px;
+}
+.spk-explore-more-wrap a{
+    text-decoration: underline;
+}
